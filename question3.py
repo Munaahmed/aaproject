@@ -9,6 +9,7 @@ def count_ways(coins, amount):
     return ways[amount]
 
 # Example usage:
-coins = [1, 2, 5]
+coins = [5, 8, 4]
 amount = 5
-print(count_ways(coins, amount)) # prints 4
+print(count_ways(coins, amount)) # prints 1
+
