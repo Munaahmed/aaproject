@@ -22,5 +22,5 @@ def find_node_and_parents(root, val):
     return None
 
 # Example usage:
-root = Node(1, Node(2, Node(4), Node(5)), Node(3, Node(6), Node(7)))
-print(find_node_and_parents(root, 5)) # prints [2, 1]
+root = Node(2, Node(4, Node(3), Node(3)), Node(2, Node(5), Node(6)))
+print(find_node_and_parents(root, 6)) # prints [2, 2]
